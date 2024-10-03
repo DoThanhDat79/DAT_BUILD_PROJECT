@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@iconify/iconify@2.1.0/dist/iconify-icon.min.js"></script>
+</head>
+<body>
+    <div class="app">
+        <!-- LEFT -->
+        <aside>
+            <nav>
+                <div id="add-chat">
+                    <iconify-icon icon="bi:plus-lg"> New chat </iconify-icon>
+                </div>
+                <ul class="chats">
+                    <li>
+                        <div>
+                            <iconify-icon icon="bi:chat-left" class="icon"></iconify-icon>
+                            <span class="chat-title">New chat</span>
+                        </div>
+                        <div>
+                            <iconify-icon icon="bi:trash3" class="icon"></iconify-icon>
+                            <iconify-icon icon="bi:pen"></iconify-icon>
+                        </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <iconify-icon icon="bi:trash3" class="icon"></iconify-icon> Clear conversation
+                    </li>
+                    <li>
+                        <iconify-icon icon="bi:gear"></iconify-icon> Settings
+                    </li>
+                    <li>
+                        <iconify-icon icon="bi:brightness-high"></iconify-icon> Light mode
+                    </li>
+                    <li>
+                        <iconify-icon icon="bi:globe-americas"></iconify-icon> English
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <!-- RIGHT -->
+        <main>
+            <div class="hints"></div>
+            <div class="qna"></div>
+            <div class="request"></div>
+        </main>
+    </div>
+</body>
+</html>
